@@ -1,0 +1,123 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>{{ page.title }} &#8211; henri.kandersson.com</title>
+
+    <link rel="stylesheet" href="/stylesheets/styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+</head>
+<body>
+    <div class="row">
+        <div class="twelve columns">
+            <div class="fixed">
+                <nav class="top-bar bluebg">
+                    <div class="inner">
+                        <ul>
+                            <li class="name">
+                                <h2 class="page-title">Henrik Andersson</h2>
+                            </li>
+                        </ul>
+                        <section>
+                            <ul class="right">
+                                <li><a href="/">home</a></li>
+                                <li><a href="/about">about</a></li>
+                                <li><a href="/projects">projects</a></li>
+                                <li><a href="/archive">archive</a></li>
+                            </ul>
+                        </section>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <div class="row content inner">
+        <div class="eight columns">
+            {{ content }}
+        </div>
+        <div class="four columns">
+            <fieldset>
+                <legend class="accent">about henrik</legend>
+                <p>
+                    <img src="http://www.gravatar.com/avatar/704f2d28f95be7e310adcdd328e621ec?s=100" alt="gravatar" style="float: left; padding: 5px 5px 0 0;" />
+                    <strong>Henrik Andersson</strong> is a former chef now software developer specialising in .NET Framework stack, a father and husband with a beautiful wife and three wonderful children, a viking and originally from Sweden...no, not Switzerland.
+                </p>
+                <p></p>
+                <p>
+                    <small>All content and opinions on this blog are my own and no one else's, unless otherwise specified.</small>
+                </p>
+            </fieldset>
+            <fieldset>
+                <legend class="accent">projects</legend>
+                <p></p>
+            </fieldset>
+            <fieldset>
+                <legend class="accent">archive</legend>
+                {% assign year = '2015' %}
+                    {% assign month = 'December' %}
+
+                      <ul class="posts">
+                          {% for post in site.posts %}
+                          {% capture postmonth %}{{ post.date | date: "%B" }}{% endcapture %}
+                          <!-- {{ postmonth }} {{ month }} -->
+                          {% if postmonth != month %}
+                            {% assign month = postmonth %}
+                            <li><a href='/archive#{{ post.date | date: "%Y" }}{{ month }}'>{{ month }} {{ post.date | date: "%Y" }}</a></li>
+                          {% endif %}
+                        {% endfor %}
+                      </ul>
+            </fieldset>
+            <fieldset>
+                <legend class="accent">tags</legend>
+                <ul id="tags">
+                    {% for tag in site.tags %}
+                        <li><a href="/tags#{{ tag[0] }}"><span class="secondary label">{{ tag[0] }} x{{ tag[1] | size }}</span></a></li>
+                    {% endfor %}
+                </ul>
+            </fieldset>
+        </div>
+    </div>
+    <footer>
+        <div class="disclaimer">
+            <div class="row inner">
+                <div class="twelve columns">
+                    <small><strong>Disclaimer:</strong> The opinions expressed on this blog are my own personal opinions and do not represent any of my previous, current or future employer’s view in any way.</small>
+                </div>
+            </div>
+        </div>
+        <div class="row inner">
+            <div class="four columns">
+                <fieldset>
+                    <legend class="accent">follow me</legend>
+                    <hr />
+                    <ul>
+                        <li>Twitter: <a href="http://twitter.com/ahandersson">@ahandersson</a></li>
+                        <li>Github: <a href="https://github.com/ahandersson">alfhenrik</a></li>
+                    </ul>
+                </fieldset>
+            </div>
+            <div class="four columns">
+            </div>
+            <div class="four columns">
+            </div>
+        </div>
+        <div class="row inner">
+            <div class="twelve columns">
+                <div class="center fixed-bottom">
+                    <p>
+                        <small>&copy; Copyright 2013 <a href="https://twitter.com/ahandersson">Henrik Andersson</a> &raquo; Powered by <a href="https://github.com/">GitHub</a> &raquo; Theme Design by <a href="https://github.com/alfhenrik/">alfhenrik</a>
+                            <!--&raquo; Theme based on <a href="https://github.com/Code52/metro.css">metro.css</a> by <a href="https://github.com/Code52">Code52</a>-->
+                        </small>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="javascripts/scale.fix.js"></script>
+
+</body>
+</html>
