@@ -71,7 +71,7 @@
                 <legend class="accent">tags</legend>
                 <ul id="tags">
                     {% for tag in site.tags %}
-                        <li><a href="/tags#{{ tag[0] }}"><span class="secondary radius label">{{ tag[0] }} x{{ tag[1] | size }}</span></a></li>
+                        <li><a href="/tags#{{ tag[0] }}"><span class="label radius test_{{ tag[1] | size }}">{{ tag[0] }}</span></a></li>
                     {% endfor %}
                 </ul>
             </fieldset>
