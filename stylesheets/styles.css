@@ -227,12 +227,12 @@ small {
 #post ul li, #post ol li {
   border-left-color:#1BA1E2;
   border-left-style:solid;
-  border-left-width:5px;
+  border-left-width:10px;
   display:block;
   height:5px;
   list-style-position:inside;
   list-style-type:none;
-  margin:10px 0;
+  margin:35px 0;
   padding:5px;
   color:#1BA1E2;
 }
