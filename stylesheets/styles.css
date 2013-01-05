@@ -67,10 +67,12 @@ a {
         margin-top: -0.6em;
         display: block;
     }
+.label {
+    font-weight: normal;
+}
 
 .label a {
     color: #f2f2f2;
-    font-weight: bold;
 }
     .label a:hover {
         background: none;
