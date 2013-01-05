@@ -3,7 +3,8 @@ layout: default
 title: henri.kandersson.com
 ---
 <h2 class="accent">archive</h2>
-{% for post in site.posts %}
+<div id="archive">
+    {% for post in site.posts %}
     {% capture postmonth %}{{ post.date | date: "%B" }}{% endcapture %}
     {% if postmonth != month %}
         {% assign month = postmonth %}
@@ -11,10 +12,11 @@ title: henri.kandersson.com
         {% else %}
 </ul>
         {% endif %}
-<a name="{{ post.date | date: '%Y' }}{{ month }}"></a>
-<h3>{{ month }}</h3>
-<ul>
-    {% endif %}
+    <a name="{{ post.date | date: '%Y' }}{{ month }}"></a>
+    <h3>{{ month }}</h3>
+    <ul id="post">
+        {% endif %}
   <li><a href="{{ post.url | remove:'.html' }}">{{ post.title }}</a> ({{ post.date | date_to_string }})</li>
-{% endfor %}
-</ul>
+        {% endfor %}
+    </ul>
+</div>
