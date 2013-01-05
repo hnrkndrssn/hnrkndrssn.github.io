@@ -7,7 +7,7 @@ title: henri.kandersson.com
 <p>
 {{ post.date | date_to_string }} {{ post.location }}
 {% for tag in post.tags %}
-<a href="/tags#{{ tag }}"><span class="badge">{{ tag }}</span></a>
+<a href="/tags#{{ tag }}"><span class="label radius">{{ tag }}</span></a>
 {% endfor %}
 </p>
   {% capture excerpt %}
