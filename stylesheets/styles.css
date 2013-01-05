@@ -67,16 +67,18 @@ a {
         margin-top: -0.6em;
         display: block;
     }
+
 .label {
     font-weight: normal;
 }
 
-.label a {
-    color: #f2f2f2;
-}
-    .label a:hover {
-        background: none;
+    .label a {
+        color: #f2f2f2;
     }
+
+        .label a:hover {
+            background: none;
+        }
 
 .wrapper {
     max-width: 960px;
@@ -134,14 +136,14 @@ img {
     margin-bottom: 0;
 }
 
-.top-bar ul > li a:not(.button) {
-    font-weight: normal;
-    color: #f2f2f2;
-}
-
-    .top-bar ul > li a:not(.button):hover {
+    .top-bar ul > li a:not(.button) {
+        font-weight: normal;
         color: #f2f2f2;
     }
+
+        .top-bar ul > li a:not(.button):hover {
+            color: #f2f2f2;
+        }
 
 .inner {
     max-width: 960px;
@@ -225,16 +227,15 @@ small {
 }
 
 #post ul li, #post ol li {
-  border-left-color:#1BA1E2;
-  border-left-style:solid;
-  border-left-width:10px;
-  display:block;
-  height:5px;
-  list-style-position:inside;
-  list-style-type:none;
-  margin:35px 0 0 0;
-  padding:5px;
-  color:#1BA1E2;
+    border-left-color: #1BA1E2;
+    border-left-style: solid;
+    border-left-width: 20px;
+    margin: 10px 0;
+    padding: 0 5px;
+    display: block;
+    list-style-position: inside;
+    list-style-type: none;
+    color: #1BA1E2;
 }
 
 fieldset {
