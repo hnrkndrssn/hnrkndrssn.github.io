@@ -69,6 +69,10 @@ a {
         display: block;
     }
 
+    .label a:hover {
+        background: none;
+    }
+
 .wrapper {
     max-width: 960px;
     margin: 0 auto;
