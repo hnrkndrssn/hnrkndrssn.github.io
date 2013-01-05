@@ -5,10 +5,16 @@ title: Tags
 <h2 class="accent">Tags</h2>
 <div id="tags-archive">
     {% for tag in site.tags %}
+    {% if forloop.first %}
+    {% else %}
+    </ul>
+    {% endif %}
     <a name="{{ tag[0] }}"></a>
     <h3>{{ tag[0] }}</h3>
-    {% for post in tag[1] %}
+    <ul>
+        {% for post in tag[1] %}
     <li><a href="{{ post.url | remove:'.html' }}">{{ post.title }}</a> ({{ post.date | date_to_string }})</li>
+        {% endfor %}
+    </ul>
     {% endfor %}
-{% endfor %}
 </div>

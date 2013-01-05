@@ -226,7 +226,7 @@ small {
     list-style: none;
 }
 
-#post ul li, #post ol li, #archive ul li, #tags-archive li {
+#post ul li, #post ol li, #archive ul li, #tags-archive ul li {
     border-left-color: #1BA1E2;
     border-left-style: solid;
     border-left-width: 20px;
