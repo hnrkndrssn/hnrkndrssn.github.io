@@ -91,7 +91,6 @@ blockquote {
 }
 
 code, pre {
-    /*color:#333;*/
     font-size: 12px;
 }
 
@@ -225,6 +224,19 @@ small {
     list-style: none;
 }
 
+#post ul li, #post ol li {
+  border-left-color:#1BA1E2;
+  border-left-style:solid;
+  border-left-width:30px;
+  display:block;
+  height:20px;
+  list-style-position:inside;
+  list-style-type:none;
+  margin:10px 0;
+  padding:5px;
+  color:#1BA1E2;
+}
+
 fieldset {
     border: none;
     border-bottom: 1px solid rgba(27, 161, 226, 0.25);
@@ -318,7 +330,6 @@ footer {
 
 @media print, screen and (max-width: 480px) {
     body {
-        /*padding:15px;*/
     }
 
     header ul {
@@ -328,7 +339,6 @@ footer {
 
 @media print {
     body {
-        /*padding:0.4in;*/
         font-size: 12pt;
         color: #444;
     }
