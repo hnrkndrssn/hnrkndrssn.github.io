@@ -261,6 +261,10 @@ fieldset {
         text-transform: uppercase;
     }
 
+    fieldset ul {
+        margin-left: 10px;
+    }
+
 hr {
     border: 0;
     background: rgba(27, 161, 226, 0.25);
