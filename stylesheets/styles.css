@@ -227,9 +227,9 @@ small {
 #post ul li, #post ol li {
   border-left-color:#1BA1E2;
   border-left-style:solid;
-  border-left-width:30px;
+  border-left-width:5px;
   display:block;
-  height:20px;
+  height:5px;
   list-style-position:inside;
   list-style-type:none;
   margin:10px 0;
