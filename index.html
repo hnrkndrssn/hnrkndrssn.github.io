@@ -12,9 +12,5 @@ title: henri.kandersson.com
         {% endfor %}
     </p>
 </div>
-{% capture excerpt %}
-      {% for paragraph in post.content %}{% if forloop.index0 <= post.excerpt %}{{ paragraph }}{% endif %}{% endfor %}
-<p><a href="{{ post.url | remove:'.html' }}">Read more...</a></p>
-{% endcapture %}
-  {{ excerpt }}
+{{ post.content }}
 {% endfor %}
