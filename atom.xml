@@ -6,17 +6,17 @@ layout: nil
 <channel>
  <title>Henrik Andersson</title>
  <link href="http://henri.kandersson.com/"/>
- <lastBuildDate>{{ site.time | date_to_xmlschema }}</updated>
- <guid>http://henri.kandersson.com/</id>
+ <lastBuildDate>{{ site.time | date_to_xmlschema }}</lastBuildDate>
+ <guid>http://henri.kandersson.com/</guid>
  <managingEditor>ahandersson@gmail.com</managingEditor>
 
  {% for post in site.posts %}
  <item>
    <title>{{ post.title }}</title>
    <link href="http://henri.kandersson.com{{ post.url }}"/>
-   <description>{{ post.content | xml_escape }}</content>
+   <description>{{ post.content | xml_escape }}</description>
    <pubDate>{{ post.date | date_to_xmlschema }}</pubDate>
-   <guid>http://henri.kandersson.com{{ post.id }}</id> 
+   <guid>http://henri.kandersson.com{{ post.id }}</guid> 
  </item>
  {% endfor %}
  
