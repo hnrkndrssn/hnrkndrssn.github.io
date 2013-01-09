@@ -50,7 +50,7 @@
     </div>
     <div class="row content inner">
         <div id="post" class="eight columns">
-            {{ content }}
+            {{ content | truncatehtml: 500 }}
         </div>
         <div class="four columns">
             <fieldset>
