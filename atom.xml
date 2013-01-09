@@ -2,26 +2,23 @@
 layout: nil
 ---
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom">
- 
+<rss version="2.0">
+<channel>
  <title>Henrik Andersson</title>
- <link href="http://henri.kandersson.com/atom.xml" rel="self"/>
  <link href="http://henri.kandersson.com/"/>
- <updated>{{ site.time | date_to_xmlschema }}</updated>
- <id>http://henri.kandersson.com/</id>
- <author>
-   <name>Henrik Andersson</name>
-   <email>ahandersson@gmail.com</email>
- </author>
+ <lastBuildDate>{{ site.time | date_to_xmlschema }}</updated>
+ <guid>http://henri.kandersson.com/</id>
+ <managingEditor>ahandersson@gmail.com</managingEditor>
 
  {% for post in site.posts %}
- <entry>
+ <item>
    <title>{{ post.title }}</title>
    <link href="http://henri.kandersson.com{{ post.url }}"/>
-   <updated>{{ post.date | date_to_xmlschema }}</updated>
-   <id>http://henri.kandersson.com{{ post.id }}</id>
-   <content type="html">{{ post.content | xml_escape }}</content>
- </entry>
+   <description>{{ post.content | xml_escape }}</content>
+   <pubDate>{{ post.date | date_to_xmlschema }}</pubDate>
+   <guid>http://henri.kandersson.com{{ post.id }}</id> 
+ </item>
  {% endfor %}
  
-</feed>
+</channel>
+</rss>
