@@ -6,7 +6,7 @@ title: henri.kandersson.com
 <h2><a href="{{ post.url | remove:'.html' }}">{{ post.title }}</a></h2>
 <div class="post-meta">
     <p>
-        {{ post.date | date_to_string }} {{ post.location }}
+        {{ post.date | date_to_string }} &raquo; {{ post.location }} {$ if post.location %} &raquo; {% endif %}
 {% for tag in post.tags %}
         <span class="label"><a href="/tags#{{ tag }}">{{ tag }}</a></span>
         {% endfor %}
