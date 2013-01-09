@@ -12,5 +12,5 @@ title: henri.kandersson.com
         {% endfor %}
     </p>
 </div>
-{{ post.content }}
+{{ post.content | truncatehtml: 500 }}
 {% endfor %}
