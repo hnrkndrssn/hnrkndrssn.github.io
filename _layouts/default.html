@@ -61,7 +61,12 @@
                 </p>
             </fieldset>
             <fieldset>
+                <legend class="accent">latest tweet</legend>
+                <p></p>
+            </fieldset>
+            <fieldset>
                 <legend class="accent">projects</legend>
+                <div id="latest_tweet"></div>
                 <p></p>
             </fieldset>
             <fieldset>
@@ -128,6 +133,14 @@
     </footer>
     <script src="http://code.jquery.com/jquery-latest.js"></script>
     <script src="javascripts/scale.fix.js"></script>
-
+    <script>
+        $(document).ready(function ()
+        {
+            $.getJSON("https://api.twitter.com/1/statuses/user_timeline/ahandersson.json?callback=?", function(data) 
+            {
+                $("#latest_tweet").html(data[0].text);
+            });
+        });
+    </script>
 </body>
 </html>
