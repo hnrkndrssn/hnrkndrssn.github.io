@@ -53,6 +53,7 @@ h6 {
 a {
     font-weight: 400;
     text-decoration: none;
+    padding: 2px 4px;
 }
 
     a:hover {
@@ -74,6 +75,7 @@ a {
 
     .label a {
         color: #f2f2f2;
+        padding: 0;
     }
 
         .label a:hover {
