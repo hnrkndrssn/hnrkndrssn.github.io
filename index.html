@@ -12,5 +12,6 @@ title: henri.kandersson.com
         {% endfor %}
     </p>
 </div>
-{{ post.content | truncate: 500 }} <span class="label"><a href="{{ post.url | remove:'.html' }}">read more</a></span>
+{{ post.content | truncate: post.excerpt, '' }} <span class="label"><a href="{{ post.url | remove:'.html' }}">read more</a></span>
+<p></p>
 {% endfor %}

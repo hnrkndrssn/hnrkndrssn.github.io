@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Happy New Year - 2012 In Perspective
-excerpt: 5
+excerpt: 400
 tags:
 - personal
 - ramblings
