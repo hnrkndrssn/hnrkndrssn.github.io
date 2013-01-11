@@ -2,7 +2,7 @@
 layout: default
 title: henri.kandersson.com
 ---
-{% for post in paginator.posts %}
+{% for post in site.posts %}
 <h2><a href="{{ post.url | remove:'.html' }}">{{ post.title }}</a></h2>
 <div class="post-meta">
     <p>
@@ -16,6 +16,7 @@ title: henri.kandersson.com
 <span class="label"><a href="{{ post.url | remove:'.html' }}">read more</a></span>
 <p></p>
 {% endfor %}
+<!--
 <nav id="pagination">
     {% if paginator.previous_page %}
 	<div class="prev-page">
@@ -34,3 +35,4 @@ title: henri.kandersson.com
     {% endif %} 
 </nav>
 <p></p>
+-->
