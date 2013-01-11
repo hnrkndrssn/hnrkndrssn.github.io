@@ -251,6 +251,22 @@ small {
         margin: 0 10px;
     }
 
+nav#pagination
+{
+	width: 100%;
+	padding: 10px 0;
+}
+
+	nav#pagination .prev-page
+	{
+		float: left;
+	}
+	
+	nav#pagination .next-page
+	{
+		float: right;
+	}
+	
 fieldset {
     border: none;
     border-bottom: 1px solid rgba(27, 161, 226, 0.25);
