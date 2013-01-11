@@ -363,7 +363,13 @@ footer {
 }
 
 
-
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (max-device-width : 1024px) {
+    /* Styles */
+    #post {
+		top: 3em;
+	}
+}
 
 
 
