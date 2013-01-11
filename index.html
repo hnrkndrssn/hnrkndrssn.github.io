@@ -6,12 +6,13 @@ title: henri.kandersson.com
 <h2><a href="{{ post.url | remove:'.html' }}">{{ post.title }}</a></h2>
 <div class="post-meta">
     <p>
-        {{ post.date | date_to_string }} &raquo; 
+        {{ post.date | date_to_string }} Posted in
 {% for tag in post.tags %}
         <span class="label"><a href="/tags#{{ tag }}">{{ tag }}</a></span>
         {% endfor %}
     </p>
 </div>
-{{ post.content | truncate: post.excerpt, '' }} <span class="label"><a href="{{ post.url | remove:'.html' }}">read more</a></span>
+{{ post.content | split: '<!--break-->' | first }} 
+<span class="label"><a href="{{ post.url | remove:'.html' }}">read more</a></span>
 <p></p>
 {% endfor %}

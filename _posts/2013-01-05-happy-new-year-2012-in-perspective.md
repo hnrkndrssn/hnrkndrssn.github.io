@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Happy New Year - 2012 In Perspective
-excerpt: 400
 tags:
 - personal
 - ramblings
@@ -11,7 +10,7 @@ tags:
 So another year has come and gone, 2012 was probably the worst year for me so far in my professional career, where I changed job hoping that it would be for the best...but it turned out that it wasn't. Although, there were some highlights through out the later part of the year, but more on that later.
 
 ####Moving On To Bigger And Better Things
-At the end of 2011 I decided that I had had enough of the upper management team at my then current job, I didn't feel that they were fulfilling the expectations they were setting and not investing in their people and compromising the quality of the work that we were producing.
+At the end of 2011 I decided that I had had enough of the upper management team at my then current job, I didn't feel that they were fulfilling the expectations they were setting and not investing in their people and compromising the quality of the work that we were producing.<!--break-->
 
 So I set out to find a new challenge in my career, I had a friend that was working for one of our government departments and he told me there was a position open for a developer to work on one of the bigger application used by this department. I thought this sounded just like something that I would enjoy working on so I applied for the job, and a few days later I went for an interview with them and the next day they called me back and offered me the position, which I accepted.
 
