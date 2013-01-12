@@ -307,6 +307,10 @@ hr {
     margin: 0 0 20px;
 }
 
+#disqus_thread {
+	color: #888;
+}
+
 .disclaimer {
     width: 100%;
     min-height: 35px;
