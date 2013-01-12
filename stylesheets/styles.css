@@ -437,6 +437,10 @@ footer {
 	.page-title {
 		font-size: 32px;
 	}
+	
+	.inner {
+		padding: 0;
+	}
 }
 
 /* Smartphones (landscape) ----------- */
