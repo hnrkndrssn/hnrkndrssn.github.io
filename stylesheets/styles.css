@@ -427,6 +427,10 @@ footer {
     aside {
         padding: 20px 0 60px;
     }
+	
+	.top-bar {
+		margin: 0 auto;
+	}
 }
 
 
@@ -438,9 +442,6 @@ footer {
 		font-size: 32px;
 	}
 	
-	.inner {
-		padding: 0;
-	}
 }
 
 /* Smartphones (landscape) ----------- */
