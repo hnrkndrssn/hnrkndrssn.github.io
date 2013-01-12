@@ -391,6 +391,9 @@ footer {
     header ul {
         display: none;
     }
+	.page-title {
+		font-size: 36px;
+	}
 }
 
 @media print {
@@ -431,6 +434,9 @@ footer {
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
     /* Styles */
+	.page-title {
+		font-size: 32px;
+	}
 }
 
 /* Smartphones (landscape) ----------- */
