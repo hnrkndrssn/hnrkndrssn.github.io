@@ -25,15 +25,15 @@ Once you have created the repository, go to the settings page of the repository 
 
 This will take you to the GitHub Pages wizard. The first step gives you the option to update the Page Name of your site, the tag line and the content.<!--break-->
 
-[![](/images/2013-01-12-Getting-up-and-running-with-Jekyll-and-GitHub-Pages/page_content_small.png)](../images/page_content.png)
+[![](/images/2013-01-12-Getting-up-and-running-with-Jekyll-and-GitHub-Pages/page_content_small.png)](/images/2013-01-12-Getting-up-and-running-with-Jekyll-and-GitHub-Pages/page_content.png)
 
 Click the 'Contine to Layouts' to proceed to selecting your initial Layout for your site. Here you have 11 different layouts that you can chose between as a starting point for your site. *For the purpose of this guide I will select the Minimal layout*
 
-[![](/images/2013-01-12-Getting-up-and-running-with-Jekyll-and-GitHub-Pages/select_layout_small.png)](../images/select_layout.png)
+[![](/images/2013-01-12-Getting-up-and-running-with-Jekyll-and-GitHub-Pages/select_layout_small.png)](/images/2013-01-12-Getting-up-and-running-with-Jekyll-and-GitHub-Pages/select_layout.png)
 
 Once you have decided on your content and layout, click Publish and GitHub will begin the process of building and deploying your site. Once the site has been built and deploy GitHub will send you and email informing you that your site has been created, then you can view your site by navigating to http://*username*.github.com.
 
-[![](/images/2013-01-12-Getting-up-and-running-with-Jekyll-and-GitHub-Pages/site_running_github_small.png)](../images/site_running_github.png)
+[![](/images/2013-01-12-Getting-up-and-running-with-Jekyll-and-GitHub-Pages/site_running_github_small.png)](/images/2013-01-12-Getting-up-and-running-with-Jekyll-and-GitHub-Pages/site_running_github.png)
 
 ####Setting up your Development environment
 
@@ -85,7 +85,7 @@ This will start Jekyll which will build your site, it puts the output in the _si
 
 Also what the above command does is start a local web server on [http://localhost:4000](http://localhost:4000) where you can view your built site.
 
-[![](/images/2013-01-12-Getting-up-and-running-with-Jekyll-and-GitHub-Pages/site_running_locally_small.png)](../images/site_running_locally.png)
+[![](/images/2013-01-12-Getting-up-and-running-with-Jekyll-and-GitHub-Pages/site_running_locally_small.png)](/images/2013-01-12-Getting-up-and-running-with-Jekyll-and-GitHub-Pages/site_running_locally.png)
 
 If you want Jekyll to rebuild your site once a file changes you can execute the following command: 
 
@@ -100,4 +100,4 @@ This will (in addition to starting Jekyll, building your site and starting the l
 ####Deploying your changes to your production site
 To deploy your changes to your live site, all you need to do is push your changes to your GitHub repository. Once you have pushed your changes to GitHub, Jekyll will rebuild your site, once it is done, you will receive an email with the result of the build. If the build is successful, you can navigate to your live site and your changes will appear, if the build failed no changes will be made to your live site.
 
-[![](/images/2013-01-12-Getting-up-and-running-with-Jekyll-and-GitHub-Pages/site_running_github_small.png)](../images/site_running_github.png)
+[![](/images/2013-01-12-Getting-up-and-running-with-Jekyll-and-GitHub-Pages/site_running_github_small.png)](/images/2013-01-12-Getting-up-and-running-with-Jekyll-and-GitHub-Pages/site_running_github.png)
