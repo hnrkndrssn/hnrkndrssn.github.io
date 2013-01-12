@@ -168,10 +168,10 @@ img {
 header {
 	width: 100%;
 	height: 50px;
+	margin: 0;
 }
 
 header .fixed {
-	height: 50px;
 	margin: 0;
 }
 
@@ -217,7 +217,7 @@ header ul a strong {
 }
 
 .content {
-    padding: 60px 20px 60px 0;
+    padding: 0 20px 60px 0;
 }
 
 aside {
@@ -391,7 +391,7 @@ footer {
 		height: 50px;
 	}
 	#post {
-		top: 3em;
+		/* top: 3em; */
 		
 	}
 }
