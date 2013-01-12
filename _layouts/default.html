@@ -3,10 +3,14 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="description" content="the personal blog of henrik andersson">
+    <meta name="keywords" content="{% for tag in page.tags %}{{ tag }} {% endfor %}software development .net framework web winrt windows phone windev blog">
     <title>{{ page.title }} &#8211; henri.kandersson.com</title>
     <link rel="shortcut icon" href="/favicon.ico" >
+    <link rel="stylesheet" href="/stylesheets/foundation.min.css">
+    <link rel="stylesheet" href="/stylesheets/metro.css">
     <link rel="stylesheet" href="/stylesheets/styles.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
     <script type="text/javascript">
 
         var _gaq = _gaq || [];
@@ -96,7 +100,7 @@
                 <legend class="accent">tags</legend>
                 <ul id="tags">
                     {% for tag in site.tags %}
-                        <li><span class="label"><a href="/tags#{{ tag[0] }}">{{ tag[0] }}</a></span></li>
+                        <li><span class="label"><a href="/tags#{{ tag[0] }}">{{ tag[0] }} [{{ tag[1] | size }}]</a></span></li>
                     {% endfor %}
                 </ul>
             </fieldset>
