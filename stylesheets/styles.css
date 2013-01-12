@@ -69,6 +69,10 @@ a {
         display: block;
     }
 
+	header {
+		padding: 0;
+		margin: 0;
+	}
 .label {
     font-weight: normal;
 }
@@ -161,23 +165,31 @@ img {
     text-align: center;
 }
 
+header {
+	width: 100%;
+}
+
+header .fixed {
+	height: 50px;
+	margin: 0;
+}
+
 header ul {
     list-style: none;
     height: 50px;
-    float: right;
 }
 
-header li {
+header ul.right li {
     width: 90px;
     float: left;
     height: 45px;
 }
 
-    header li:hover {
+    header ul#main-nav li:hover {
         border-top: 5px solid rgb(27, 141, 226);
     }
 
-        header li:hover a {
+        header ul#main-nav li:hover a {
             margin-top: 10px;
         }
 
@@ -186,10 +198,9 @@ header ul a {
     color: #f2f2f2;
     display: block;
     text-align: center;
-    margin-top: 15px;
 }
 
-    header ul a:hover {
+    header ul#main-nav a:hover {
         background: none;
     }
 
