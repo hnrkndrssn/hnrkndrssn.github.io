@@ -245,6 +245,10 @@ small {
     list-style: none;
 }
 
+#post h2 {
+	line-height: 1.4em;
+}
+
 #post ul li, #post ol li, #archive ul li, #tags-archive ul li {
     border-left-color: #1BA1E2;
     border-left-style: solid;
@@ -255,6 +259,21 @@ small {
     list-style-position: inside;
     list-style-type: none;
     color: #1BA1E2;
+}
+
+#tagcloud{
+	line-height: 1.75em;
+	padding: 2px;
+	text-align: center;
+	margin: 0;
+}
+
+#tagcloud li {
+	display: inline;
+}
+
+#tagcloud a {
+	padding: 0;
 }
 
 .post-meta {

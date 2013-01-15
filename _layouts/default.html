@@ -98,9 +98,9 @@
             </fieldset>
             <fieldset>
                 <legend class="accent">tags</legend>
-                <ul id="tags">
+                <ul id="tagcloud">
                     {% for tag in site.tags %}
-                        <li><span class="label"><a href="/tags#{{ tag[0] }}">{{ tag[0] }} [{{ tag[1] | size }}]</a></span></li>
+                        <li><span class="label" style="font-size: {{ tag[1] | size | minus:1 | times:4 | plus:12 }}px;line-height:{{ tag[1] | size | minus:1 | times:4 | times:14 | divided_by:12 | plus:14 }}px"><a href="/tags#{{ tag[0] }}">{{ tag[0] }}</a></span></li>
                     {% endfor %}
                 </ul>
             </fieldset>
