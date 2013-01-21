@@ -64,6 +64,8 @@
                 <p>
                     <div id="gravatar">&nbsp;</div>
                     <strong>Henrik Andersson</strong> is a former chef now software developer specialising in .NET Framework stack, a father and husband with a beautiful wife and three wonderful children, a viking and originally from Sweden...no, not Switzerland.
+					<p></p>
+					<p><a href="/Henrik_Andersson_CV.pdf">View Resume</a></p>
                 </p>
             </fieldset>
             <fieldset>
@@ -100,7 +102,9 @@
                 <legend class="accent">tags</legend>
                 <ul id="tagcloud">
                     {% for tag in site.tags %}
-                        <li><span class="label" style="font-size: {{ tag[1] | size | minus:1 | times:4 | plus:12 }}px;line-height:{{ tag[1] | size | minus:1 | times:4 | times:14 | divided_by:12 | plus:14 }}px"><a href="/tags#{{ tag[0] }}">{{ tag[0] }}</a></span></li>
+                        <li>
+						<span class="label" style="font-size: {{ tag[1] | size | minus:1 | times:4 | plus:12 }}px;line-height:{{ tag[1] | size | minus:1 | times:4 | times:14 | divided_by:12 | plus:14 }}px">
+						<a href="/tags#{{ tag[0] }}">{{ tag[0] }}</a></span></li>
                     {% endfor %}
                 </ul>
             </fieldset>
