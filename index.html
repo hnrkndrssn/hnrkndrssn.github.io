@@ -13,7 +13,7 @@ title: henri.kandersson.com
     </p>
 </div>
 {{ post.content | split: '<!--break-->' | first }} 
-<span class="label"><a href="{{ post.url | remove:'.html' }}">read more</a></span>
+<span class="read-more"><a href="{{ post.url | remove:'.html' }}">read more</a></span>
 <p></p>
 {% endfor %}
 <!--

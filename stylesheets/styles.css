@@ -53,7 +53,7 @@ a {
     padding: 2px 4px;
 }
 
-    a:hover {
+    a:hover, .read-more a:hover {
         background: #1893CC;
         color: #f2f2f2;
         text-decoration: none;
@@ -70,8 +70,10 @@ a {
 		padding: 0;
 		margin: 0;
 	}
+	
 .label {
     font-weight: normal;
+	opacity: 0.5;
 }
 
     .label a {
@@ -183,24 +185,12 @@ header ul.right li {
     height: 45px;
 }
 
-    header ul#main-nav li:hover {
-        border-top: 5px solid rgb(27, 141, 226);
-    }
-
-        header ul#main-nav li:hover a {
-            margin-top: 10px;
-        }
-
 header ul a {
     line-height: 1;
     color: #f2f2f2;
     display: block;
     text-align: center;
 }
-
-    header ul#main-nav a:hover {
-        background: none;
-    }
 
 strong {
     color: #222;
