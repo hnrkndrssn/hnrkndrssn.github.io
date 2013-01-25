@@ -72,17 +72,20 @@ a {
 	}
 	
 .label {
-    font-weight: normal;
-	opacity: 0.5;
+	background: none;
+	padding: 0;
 }
 
     .label a {
+		border-radius: 3px 3px 3px 3px;
+		font-weight: normal;
+		padding: 3px 5px;
+		background-color: #8DD0F1;
         color: #f2f2f2;
-        padding: 0;
     }
 
         .label a:hover {
-            background: none;
+            background: #1BA1E2;
         }
 
 .wrapper {
@@ -260,10 +263,6 @@ small {
 
 #tagcloud li {
 	display: inline;
-}
-
-#tagcloud a {
-	padding: 0;
 }
 
 .post-meta {
