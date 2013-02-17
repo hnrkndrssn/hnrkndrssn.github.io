@@ -69,7 +69,7 @@ a {
 		padding: 0;
 		margin: 0;
 	}
-	
+
 .label {
 	background: none;
 	padding: 0;
@@ -143,16 +143,23 @@ img {
     margin-bottom: 0;
 }
 
+	.top-bar ul > li:hover:not(.name) {
+		background-color: #fff;
+	}
+
     .top-bar ul > li a:not(.button) {
         font-weight: normal;
         color: #f2f2f2;
     }
 
         .top-bar ul > li a:not(.button):hover {
-            color: #f2f2f2;
+            color: #004B8B;
         }
+	.top-bar ul > li:hover:not(.name), .top-bar ul > li.active:not(.name), .top-bar ul > li:focus:not(.name) {
+		background: none;
+	}
 
-.inner {
+	.inner {
     max-width: 960px;
     margin: 0 auto;
 }
@@ -160,6 +167,10 @@ img {
 .page-title {
     float: left;
     color: #f2f2f2;
+}
+
+.page-title:hover {
+	color: #004B8B;
 }
 
 .center {
