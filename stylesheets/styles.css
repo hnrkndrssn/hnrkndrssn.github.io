@@ -54,8 +54,7 @@ a {
 }
 
     a:hover, .read-more a:hover {
-        background: #1893CC;
-        color: #f2f2f2;
+        color: #004B8B;
         text-decoration: none;
     }
 
