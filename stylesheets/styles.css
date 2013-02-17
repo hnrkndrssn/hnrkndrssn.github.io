@@ -354,29 +354,32 @@ hr {
 .disclaimer {
     width: 100%;
     min-height: 35px;
-    background: rgba(0, 25, 64, 0.25);
     padding: 10px 0;
     text-align: center;
+    background-color: #BFC5CF;
 }
 
+	.disclaimer, .disclaimer strong {
+		color: rgba(0, 25, 64, 1);
+	}
+
 footer {
+	bottom: 0;
     width: 100%;
-    background: rgba(0, 25, 64, 1);
-	color: #f2f2f2;
+	color: #BFC5CF;
 }
 
 	footer a {
 		padding: 2px 4px;
 	}
 	
-	footer a ,
-	.disclaimer strong{
-		color: #f2f2f2;
+	footer a {
+		color: #BFC5CF;
 	}
 	
 	footer a:hover {
-		background-color: rgba(255,255,255,0.12);
-		color: #f2f2f2;
+		background-color: rgba(255,255,255,0.25);
+		color: #BFC5CF;
 	}
 	
 	footer hr {
