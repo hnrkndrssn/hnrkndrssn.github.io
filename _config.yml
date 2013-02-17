@@ -13,7 +13,7 @@ lsi:         false
 pygments:    false
 markdown:    rdiscount
 permalink:   pretty
-paginate:	 10
+paginate:	 3
 
 rdiscount:
   extensions: [smart]

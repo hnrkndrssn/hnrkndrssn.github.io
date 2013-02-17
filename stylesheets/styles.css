@@ -4,6 +4,14 @@ body {
     color: #888;
 }
 
+.bluebg {
+	background-color: #001940;
+}
+
+.accent {
+	color: #001940;
+}
+
 h1, h2, h3, h4, h5, h6 {
     margin: 0 0 20px;
 }
@@ -51,10 +59,11 @@ a {
     font-weight: 400;
     text-decoration: none;
     padding: 2px 4px;
+	color: rgba(0, 25, 64, 0.4)
 }
 
     a:hover, .read-more a:hover {
-        color: #004B8B;
+        color: rgba(0, 25, 64, 1);
         text-decoration: none;
     }
 
@@ -65,10 +74,10 @@ a {
         display: block;
     }
 
-	header {
-		padding: 0;
-		margin: 0;
-	}
+header {
+	padding: 0;
+	margin: 0;
+}
 
 .label {
 	background: none;
@@ -76,15 +85,15 @@ a {
 }
 
     .label a {
-		border-radius: 3px 3px 3px 3px;
 		font-weight: normal;
 		padding: 3px 5px;
-		background-color: #8DD0F1;
-        color: #f2f2f2;
+		background-color: rgba(0, 25, 64, 0.25);
+        color: rgba(0, 25, 64, 1);
     }
 
         .label a:hover {
-            background: #1BA1E2;
+            background: rgb(0, 25, 64);
+			color: #f2f2f2;
         }
 
 .wrapper {
@@ -127,12 +136,10 @@ th, td {
 }
 
 dt {
-    /*color:#444;*/
     font-weight: 700;
 }
 
 th {
-    /*color:#444;*/
 }
 
 img {
@@ -140,23 +147,33 @@ img {
 }
 
 .top-bar {
-    margin-bottom: 0;
+	height: 40px;
+	line-height: 40px;
+	margin: 0;
 }
 
+	.top-bar ul {
+		height: 40px;
+		line-height: 40px;
+	}
+	
 	.top-bar ul > li:hover:not(.name) {
-		background-color: #fff;
+		background-color: #f2f2f2;
 	}
 
     .top-bar ul > li a:not(.button) {
         font-weight: normal;
         color: #f2f2f2;
+		height: 40px;
+		line-height: 40px;
     }
-
-        .top-bar ul > li a:not(.button):hover {
-            color: #004B8B;
-        }
+	
+	.top-bar ul > li a:not(.button):hover {
+		background: rgba(255,255,255,0.12);
+	}
+		
 	.top-bar ul > li:hover:not(.name), .top-bar ul > li.active:not(.name), .top-bar ul > li:focus:not(.name) {
-		background: none;
+		background: rgba(255,255,255,0.12);
 	}
 
 	.inner {
@@ -165,12 +182,11 @@ img {
 }
 
 .page-title {
+	font-size: 30px;
+	line-height: 40px;
     float: left;
     color: #f2f2f2;
-}
-
-.page-title:hover {
-	color: #004B8B;
+	margin: 0;
 }
 
 .center {
@@ -179,7 +195,7 @@ img {
 
 header {
 	width: 100%;
-	height: 50px;
+	height: 40px;
 	margin: 0;
 }
 
@@ -189,13 +205,13 @@ header .fixed {
 
 header ul {
     list-style: none;
-    height: 50px;
+    height: 40px;
 }
 
 header ul.right li {
     width: 90px;
     float: left;
-    height: 45px;
+    height: 40px;
 }
 
 header ul a {
@@ -233,7 +249,7 @@ aside {
     }
 
 #gravatar {
-	background: #fff url('http://www.gravatar.com/avatar/704f2d28f95be7e310adcdd328e621ec?s=100') no-repeat top right;
+	background: #f2f2f2 url('http://www.gravatar.com/avatar/704f2d28f95be7e310adcdd328e621ec?s=100') no-repeat top right;
 	float: left; 
 	width: 100px;
 	height: 100px;
@@ -278,8 +294,8 @@ small {
 .post-meta {
     margin-bottom: 10px;
     padding: 5px 0;
-    border-top: 1px solid rgba(27, 161, 226, 0.25);
-    border-bottom: 1px solid rgba(27, 161, 226, 0.25);
+    border-top: 1px solid rgba(0, 25, 64, 0.25);
+    border-bottom: 1px solid rgba(0, 25, 64, 0.25);
 }
 
     .post-meta p {
@@ -304,7 +320,7 @@ nav#pagination
 	
 fieldset {
     border: none;
-    border-bottom: 1px solid rgba(27, 161, 226, 0.25);
+    border-bottom: 1px solid rgba(0, 25, 64, 0.25);
     margin: 10px;
     width: 100%;
 }
@@ -320,7 +336,7 @@ fieldset {
 
 hr {
     border: 0;
-    background: rgba(27, 161, 226, 0.25);
+    background: rgba(0, 25, 64, 0.25);
     height: 1px;
     margin: 0 0 20px;
 }
@@ -332,16 +348,31 @@ hr {
 .disclaimer {
     width: 100%;
     min-height: 35px;
-    background: rgba(27, 161, 226, 0.25);
+    background: rgba(0, 25, 64, 0.25);
     padding: 10px 0;
     text-align: center;
 }
 
 footer {
     width: 100%;
-    background: #fdfdfd;
+    background: rgba(0, 25, 64, 1);
+	color: #f2f2f2;
 }
 
+	footer a ,
+	.disclaimer strong{
+		color: #f2f2f2;
+	}
+	
+	footer a:hover {
+		background-color: rgba(255,255,255,0.12);
+		color: #f2f2f2;
+	}
+	
+	footer hr {
+		background: #f2f2f2;
+	}
+	
     footer fieldset {
         border: none;
     }
