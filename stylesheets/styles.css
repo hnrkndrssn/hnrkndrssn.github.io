@@ -358,6 +358,10 @@ footer {
 	color: #f2f2f2;
 }
 
+	footer a {
+		padding: 2px 4px;
+	}
+	
 	footer a ,
 	.disclaimer strong{
 		color: #f2f2f2;
