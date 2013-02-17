@@ -275,7 +275,7 @@ small {
 }
 
 #post ul li, #post ol li, #archive ul li, #tags-archive ul li {
-    border-left-color: rgba(0, 25, 64, 1);
+    border-left-color: rgba(0, 25, 64, 0.25);
     border-left-style: solid;
     border-left-width: 20px;
     margin: 10px;
@@ -283,7 +283,11 @@ small {
     display: block;
     list-style-position: inside;
     list-style-type: none;
-    color: rgba(0, 25, 64, 1);
+    color: rgba(0, 25, 64, 0.25);
+}
+
+#post ul li:hover, #post ol li:hover, #archive ul li:hover, #tags-archive ul li:hover {
+    border-left-color: rgba(0, 25, 64, 1);
 }
 
 #tagcloud{
