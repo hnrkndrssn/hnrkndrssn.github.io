@@ -3,7 +3,7 @@ layout: default
 title: henrikandersson.org
 ---
 {% for post in site.posts %}
-<h2><a href="~{{ post.url | remove:'.html' }}">{{ post.title }}</a></h2>
+<h2><a href="{{ post.url | remove:'.html' }}">{{ post.title }}</a></h2>
 <div class="post-meta">
     <p>
         {{ post.date | date_to_string }} Posted in
