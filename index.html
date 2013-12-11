@@ -15,7 +15,7 @@ title: henrikandersson.org
         {% else %}
           {% assign path = page.path %}
         {% endif %}
-        <a href="{{ site.github_repo_url }}edit/gh-pages/{{ path }}" target="_blank" style="float: right;">edit</a>
+        <a href="{{ site.github_repo_url }}edit/gh-pages/{{ path }}" target="_blank" class="right">edit</a>
     </p>
 </div>
 {{ post.content | split: '<!--break-->' | first }} 
