@@ -1,3 +1,14 @@
+#
+# Blog Settings
+#
+
+# Github repositories
+github_user: alfhenrik
+github_repo_url: https://github.com/alfhenrik/henrikandersson.org/
+
+#
+# Jekyll Settings
+#
 safe:        true
 auto:        true
 server:      false
