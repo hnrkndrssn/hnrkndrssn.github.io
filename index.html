@@ -10,6 +10,12 @@ title: henrikandersson.org
 {% for tag in post.tags %}
         <span class="label"><a href="/tags#{{ tag }}">{{ tag }}</a></span>
         {% endfor %}
+        {% if post.url %}
+          {% assign path = post.path %}
+        {% else %}
+          {% assign path = page.path %}
+        {% endif %}
+        <a href="{{ site.github_repo_url }}edit/gh-pages/{{ path }}">edit</a>
     </p>
 </div>
 {{ post.content | split: '<!--break-->' | first }} 
