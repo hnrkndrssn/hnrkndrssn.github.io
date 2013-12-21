@@ -8,6 +8,7 @@ title: henrik andersson
 subtitle: 
 gravatar_url: https://s.gravatar.com/avatar/de0ee1937ada29a8c7be1db1505c690b
 subscribe_rss: http://feeds.henrikandersson.org/ahandersson
+display_resume: true
 
 # Github repositories
 github_user: alfhenrik
