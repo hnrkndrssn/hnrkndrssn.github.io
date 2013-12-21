@@ -1,13 +1,11 @@
 ---
 layout: post
 title: Sneak Peek at Nuus - A Metro Themed WPF RSS Reader
-tags:
-- project
-- wpf
-- metro
-- caliburn.micro
-- ReactiveUI
-- akavache
+comments: true
+publish: true
+date: 2013-01-15 +1000
+disqus_identifier: 4
+categories: [project,wpf,metro,caliburn.micro,Reactive-UI,akavache]
 ---
 
 ####Overview

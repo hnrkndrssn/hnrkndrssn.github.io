@@ -1,155 +1,63 @@
-<!doctype html>
-<html>
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-    <meta name="description" content="the personal blog of henrik andersson">
-    <meta name="keywords" content="{% for tag in page.tags %}{{ tag }} {% endfor %}software development .net framework web winrt windows phone windev blog">
-    <title>{{ page.title }} &#8211; henrikandersson.org</title>
-    <link rel="shortcut icon" href="/favicon.ico" >
-    <link rel="stylesheet" href="/stylesheets/foundation.min.css">
-    <link rel="stylesheet" href="/stylesheets/metro.css">
-    <link rel="stylesheet" href="/stylesheets/styles.css">
-    <script type="text/javascript">
+{% include head.html %}
 
-        var _gaq = _gaq || [];
-        _gaq.push(['_setAccount', 'UA-37423173-1']);
-        _gaq.push(['_setDomainName', 'henrikandersson.org']);
-        _gaq.push(['_trackPageview']);
-
-        (function () {
-            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-        })();
-
-    </script>
-</head>
 <body>
-<header class="bluebg">
-    <div class="row">
-        <div class="twelve columns">
-            <div class="fixed">
-                <nav class="top-bar bluebg">
-                    <div class="inner">
-                        <ul>
-                            <li class="name">
-                                <a href="/">
-                                    <h2 class="page-title">Henrik Andersson</h2>
-                                </a>
-                            </li>
-                        </ul>
-                        <section>
-                            <ul id="main-nav" class="right">
-                                <li><h4><a href="/about">about</a></h4></li>
-                                <li><h4><a href="/projects">projects</a></h4></li>
-                                <li><h4><a href="/archive">archive</a></h4></li>
-                            </ul>
+	<div class="container">
+		<div class="left-col">
+			<div class="intrude-less">
+				<header id="header" class="inner">{% include header.html %}</header>				
+			</div>
+		</div>
+		<div class="mid-col">
+			<div class="mid-col-container">
+				<div id="content" class="inner">{{ content }}</div>
+			</div>
+            <nav id="sub-nav">
+                <div class="social">
+                    {% if site.twitter_user %}
+                        <a class="twitter" href="http://twitter.com/{{ site.twitter_user }}" title="Twitter"><i class="fa fa-twitter"></i><span>Twitter</span></a>
+                    {% endif %}
+                    {% if site.github_user %}
+                        <a class="github" href="https://github.com/{{ site.github_user }}" title="GitHub"><i class="fa fa-github"></i><span>GitHub</span></a>
+                    {% endif %}
+                    {% if site.subscribe_rss %}
+                        <a class="rss" href="{{ site.subscribe_rss }}" title="RSS"><i class="fa fa-rss"></i><span>RSS</span></a>
+                    {% endif %}
+                </div>
+            </nav>
+		</div>
+        <div class="right-col">
+            <div class="right-col-container">
+                <div class="profile">
+                    {% if site.gravatar_url %}
+                    <img src="{{ site.gravatar_url }}?s=160" alt="Profile Picture" style="width: 160px;" />
+                    {% endif %}
+                    <h1>{{ site.title }}</h1>
+                    {% if site.subtitle %}
+                    <h2>{{ site.subtitle }}</h2>
+                    {% endif %}
+                    {% if site.description %}
+                        <section class="aboutme">
+                          <p>
+                            {{ site.description }}
+                          </p>
                         </section>
-                    </div>
-                </nav>
+                    {% endif %}
+                    <p class="resume"><a href="/resume/">View Resume</a></p>
+                </div>
             </div>
         </div>
-    </div>
-	</header>
-	<div class="wrapper">
-    <div class="row content inner">
-        <div id="post" class="eight columns">
-            {{ content }}
-        </div>
-        <div class="four columns">
-            <fieldset>
-                <legend class="accent">about henrik</legend>
-                <p>
-                    <div id="gravatar">&nbsp;</div>
-                    <span class="accent">Henrik Andersson</span> is a former chef now software developer specialising in .NET Framework stack, a father and husband with a beautiful wife and three wonderful children, a viking and originally from Sweden...no, not Switzerland.
-					<p></p>
-					<p><a href="/Henrik_Andersson_CV.pdf">View Resume</a></p>
-                </p>
-            </fieldset>
-            <fieldset>
-                <legend class="accent">latest tweet</legend>
-                <div id="twitter_div">
-                    <ul id="twitter_update_list">
-                        <li>&nbsp;</li>
-                    </ul>
-                </div>
-            </fieldset>
-            <fieldset>
-                <legend class="accent">projects</legend>
-                <ul>
-                    <li><a href="https://github.com/davidfowl/MessengR" title="One on one messenger app using SignalR">MessengR</a></li>
-                </ul>
-            </fieldset>
-            <fieldset>
-                <legend class="accent">archive</legend>
-                {% assign year = '2015' %}
-                    {% assign month = 'December' %}
-
-                      <ul class="posts-archive">
-                          {% for post in site.posts %}
-                          {% capture postmonth %}{{ post.date | date: "%B" }}{% endcapture %}
-                          <!-- {{ postmonth }} {{ month }} -->
-                          {% if postmonth != month %}
-                            {% assign month = postmonth %}
-                            <li><a href='/archive#{{ post.date | date: "%Y" }}{{ month }}'>{{ month }} {{ post.date | date: "%Y" }}</a></li>
-                          {% endif %}
-                        {% endfor %}
-                      </ul>
-            </fieldset>
-            <fieldset>
-                <legend class="accent">tags</legend>
-                <ul id="tagcloud">
-                    {% for tag in site.tags %}
-                        <li>
-						<span class="label" style="font-size: {{ tag[1] | size | minus:1 | times:4 | plus:12 }}px;line-height:{{ tag[1] | size | minus:1 | times:14 | times:14 | divided_by:12 | plus:14 }}px">
-						<a href="/tags#{{ tag[0] }}">{{ tag[0] }}</a></span></li>
-                    {% endfor %}
-                </ul>
-            </fieldset>
-        </div>
-    </div>
+        <footer id="footer" class="inner">{% include footer.html %}</footer>
 	</div>
-    <footer>
-        <div class="disclaimer">
-            <div class="row inner">
-                <div class="twelve columns">
-                    <small><strong>Disclaimer:</strong> The opinions expressed on this blog are my own personal opinions and do not represent any of my previous, current or future employer’s view in any way.</small>
-                </div>
-            </div>
-        </div>
-        <div class="row inner">
-            <div class="four columns">
-            </div>
-            <div class="four columns">
-            </div>
-            <div class="four columns">
-                <fieldset>
-                    <legend>follow me</legend>
-                    <hr />
-                    <ul>
-                        <li><span>Twitter</span> <a href="http://twitter.com/ahandersson">ahandersson</a></li>
-                        <li><span>Github</span> <a href="https://github.com/alfhenrik">alfhenrik</a></li>
-                    </ul>
-                </fieldset>
-            </div>
-        </div>
-        <div class="row inner">
-            <div class="twelve columns">
-                <div class="center fixed-bottom">
-                    <p>
-                        <small>&copy; Copyright 2013 <a href="https://twitter.com/ahandersson">Henrik Andersson</a> &raquo; Powered by <a href="https://github.com/">GitHub</a> &raquo; Theme Design by <a href="https://github.com/alfhenrik/">alfhenrik</a>
-                            <!--&raquo; Theme based on <a href="https://github.com/Code52/metro.css">metro.css</a> by <a href="https://github.com/Code52">Code52</a>-->
-                        </small>
-                    </p>
-                </div>
-            </div>
-        </div>
-    </footer>
-    <script src="http://code.jquery.com/jquery-latest.js"></script>
-    <script type="text/javascript" src="http://twitter.com/javascripts/blogger.js"></script>
-    <script type="text/javascript" src="http://api.twitter.com/1/statuses/user_timeline/ahandersson.json?callback=twitterCallback2&count=1"></script>
-    <script src="javascripts/scale.fix.js"></script>
-	</body>
+<script>
+    function _dmBootstrap(file) {
+        var _dma = document.createElement('script'); 
+        _dma.type = 'text/javascript';
+        _dma.async = true; 
+        _dma.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + file;
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(_dma);
+    }
+    function _dmFollowup(file) { if (typeof DMAds === 'undefined')  _dmBootstrap('cdn2.DeveloperMedia.com/a.min.js');}
+    (function () { _dmBootstrap('cdn1.DeveloperMedia.com/a.min.js'); setTimeout(_dmFollowup, 2000);})();
+</script>
+</body>
 </html>

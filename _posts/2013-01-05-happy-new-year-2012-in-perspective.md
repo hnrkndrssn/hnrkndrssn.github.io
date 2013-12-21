@@ -1,9 +1,11 @@
 ---
 layout: post
 title: Happy New Year - 2012 In Perspective
-tags:
-- personal
-- ramblings
+comments: true
+publish: false
+date: 2013-01-05 +1000
+disqus_identifier: 1
+categories: [personal,ramblings]
 ---
 
 ####Another Year Gone

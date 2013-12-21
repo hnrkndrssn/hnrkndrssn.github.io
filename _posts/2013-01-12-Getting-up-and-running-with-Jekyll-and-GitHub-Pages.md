@@ -1,10 +1,11 @@
 ---
 layout: post
 title: Getting up and running with Jekyll and GitHub Pages
-tags: 
-- jekyll
-- github
-- github pages
+comments: true
+publish: true
+date: 2013-01-12 +1000
+disqus_identifier: 3
+categories: [jekyll,github,gh-pages]
 ---
 
 As I have just started with GitHub Pages and initally was doing my development and bug fixes by committing the changes to GitHub and checking the live site, I thought I'd put together this guide on how to get it up and running on GitHub and then also getting it up and running on a Windows system for local development and post creation.

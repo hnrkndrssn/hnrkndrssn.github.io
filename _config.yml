@@ -1,45 +1,39 @@
 #
 # Blog Settings
 #
+author: Henrik Andersson
+description: A former chef turned software developer specialising in .NET Framework stack, a father and husband with a beautiful wife and three wonderful children, a viking and originally from Sweden...no, not Switzerland.
+url: http://henrikandersson.org
+title: henrik andersson
+subtitle: 
+gravatar_url: https://s.gravatar.com/avatar/de0ee1937ada29a8c7be1db1505c690b
+subscribe_rss: http://feeds.henrikandersson.org/ahandersson
 
 # Github repositories
 github_user: alfhenrik
 github_repo_url: https://github.com/alfhenrik/henrikandersson.org/
 
+# Twitter
+twitter_user: ahandersson
+twitter_tweet_button: true
+
+# Disqus Comments
+disqus_short_name: henrikandersson
+disqus_show_comment_count: true
+
+# Google Analytics
+google_analytics_tracking_id: UA-37423173-1
+
+
 #
 # Jekyll Settings
 #
-safe:        true
-auto:        true
-server:      false
-server_port: 4000
-url: http://localhost:4000
-
-source:      .
-destination: ./_site
-plugins:     ./_plugins
-
-future:      true
-lsi:         false
-pygments:    false
-markdown:    rdiscount
-permalink:   pretty
-paginate:	 3
-
+markdown: rdiscount
+pygments: true
+permalink: /archive/:year/:month/:day/:title/
 rdiscount:
   extensions: [smart]
-
-kramdown:
-  auto_ids: true,
-  footnote_nr: 1
-  entity_output: as_char
-  toc_levels: 1..6
-  use_coderay: false
-  
-  coderay:
-    coderay_wrap: div
-    coderay_line_numbers: inline
-    coderay_line_numbers_start: 1
-    coderay_tab_width: 4
-    coderay_bold_every: 10
-    coderay_css: style
+paginate: 5
+paginate_path: "page/:num"
+category_dir: categories
+excerpt_separator: "<!--break-->"
