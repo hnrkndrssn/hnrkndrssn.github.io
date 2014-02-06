@@ -5,6 +5,7 @@ title: henri.kandersson.com
 <h2 class="accent">archive</h2>
 <div id="archive">
     {% for post in site.posts %}
+    {% if post.publish %}
     {% capture postmonth %}{{ post.date | date: "%B" }}{% endcapture %}
     {% if postmonth != month %}
         {% assign month = postmonth %}
@@ -17,6 +18,7 @@ title: henri.kandersson.com
     <ul id="post">
         {% endif %}
   <li><a href="{{ post.url | remove:'.html' }}">{{ post.title }}</a> ({{ post.date | date_to_string }})</li>
+    {% endif %}
         {% endfor %}
     </ul>
 </div>
