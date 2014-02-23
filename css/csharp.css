@@ -23,6 +23,7 @@ code
 	border: 1px solid #EAEAEA; 
 	border-radius: 3px;
 	box-shadow: inset 0 0 1px 0 #222;
+  white-space: nowrap;
 }
 
 pre .k, pre .kt{color: rgb(86,156,214);}
