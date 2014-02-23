@@ -379,3 +379,5 @@ Press F5 again, and this time, the login page should be displayed, the login but
 That's it for this first part in this series of building a Windows Store app using ReactiveUI and integrating with GitHub.
 
 In the next part, we will look at implementing the login logic, which will involve calling the GitHub API.
+
+Source for this series of blog posts can be found [here](https://github.com/alfhenrik/Grimpoteuthis)
