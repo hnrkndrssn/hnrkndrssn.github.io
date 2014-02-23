@@ -516,7 +516,7 @@ ul li a { -webkit-transition: all .2s ease-in;-moz-transition:all .2s ease-in;-o
     .container .right-col {right:0;}
 }
 @media screen and (max-width: 768px){
-    .container .right-col {position: initial;width:auto;min-height: initial;}
+    .container .right-col {position: relative;width:auto;min-height: initial;}
 }
 #content { width: 100% }
 #content article { border-top: none;padding:20px 0px 80px; }
