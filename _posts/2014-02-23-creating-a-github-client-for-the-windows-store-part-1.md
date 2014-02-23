@@ -3,9 +3,9 @@ layout: post
 title: GitHub Client for the Windows Store - Getting Started
 name: creating-a-github-client-for-the-windows-store-part-1
 series: windowsstore-githubclient
-comments: false
-sharing: false
-date: 2014-02-22 +1000
+comments: true
+sharing: true
+date: 2014-02-23 +1000
 disqus_identifier: 5
 categories: [Windows Store,ReactiveUI]
 ---
