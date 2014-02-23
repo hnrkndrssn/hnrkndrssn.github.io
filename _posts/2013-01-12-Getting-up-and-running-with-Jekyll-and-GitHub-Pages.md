@@ -2,7 +2,6 @@
 layout: post
 title: Getting up and running with Jekyll and GitHub Pages
 comments: true
-publish: true
 date: 2013-01-12 +1000
 disqus_identifier: 3
 categories: [jekyll,github,gh-pages]

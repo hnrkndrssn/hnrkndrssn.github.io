@@ -9,5 +9,8 @@
 {% else %}
 	<h1 class="title" itemprop="name">{% if site.titlecase %}{{ page.title | titlecase }}{% else %}{{ page.title }}{% endif %}</h1>
 	{% include post/meta.html %}
+	{% if page.series %}
+		{% include post/series.html param=page.series %}
+	{% endif %}
 	<div class="entry-content" itemprop="articleBody">{{ content }}</div>
 {% endif %}

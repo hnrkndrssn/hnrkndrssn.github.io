@@ -1,0 +1,24 @@
+{% assign count = '0' %}
+{% assign idx = '0' %}
+{% assign series = include.param %}
+
+<div class="seriesNote">
+	<ul>
+	{% assign count = '0' %}
+	{% for post in site.posts reversed %}
+	{% if post.series == series %}
+		{% capture count %}{{ count | plus: '1' }}{% endcapture %}
+		<li>
+		{% if page.url == post.url %}
+			<span class="current">Part {{ count }} - {{post.title}}</span>
+		{% else %}
+			<a href="{{post.url}}">Part {{ count }} - {{post.title}}</a>
+		{% endif %}
+		</li>
+	{% endif %}
+	{% endfor %}
+	</ul>
+</div>
+
+{% assign count = nil %}
+{% assign idx = nil %}
