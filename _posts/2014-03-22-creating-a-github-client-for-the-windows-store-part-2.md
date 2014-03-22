@@ -195,7 +195,7 @@ Run the application, and try to login with an incorrect password, you should be 
 
 If you enter your credentials correctly you will be greeted by a success message.
 
-
+![Successfully Authenticated](/images/{{page.name}}/successful-login.png)
 
 If you have two-factor authentication enabled on your account and you try to login you will be greeted by the following error
 
