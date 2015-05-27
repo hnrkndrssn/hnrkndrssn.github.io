@@ -1,1 +1,68 @@
 
+==================================================================
+https://keybase.io/henrikandersson
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://blog.henrikandersson.org
+  * I am henrikandersson (https://keybase.io/henrikandersson) on keybase.
+  * I have a public key with fingerprint D41A B58C 846E 8C96 187D  3C78 3B2D 53D3 A3ED B9A5
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "fingerprint": "d41ab58c846e8c96187d3c783b2d53d3a3edb9a5",
+            "host": "keybase.io",
+            "key_id": "3b2d53d3a3edb9a5",
+            "kid": "0101e62294478b4c79edf9d606071c3bc173693c039e7170f1845874f4b20aa893fc0a",
+            "uid": "e77603e330645eac55f41636bd073a19",
+            "username": "henrikandersson"
+        },
+        "service": {
+            "hostname": "blog.henrikandersson.org",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1432699084,
+    "expire_in": 157680000,
+    "prev": "2b947f76671b274999aa48e4a0223dd705d53d1d20bb9b106e01b40bdebbf25c",
+    "seqno": 3,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.8
+Comment: https://keybase.io/crypto
+
+yMIlAnicbZJrSBVBFMevj6zErCiiPkSxJWmozOzM7uxeogcl2eNDko+MUnd2Zq+r
+tnvde9WuDyqiKEKxwqCiwIL6kCVhmFb0kAqyEsIwI/uUEL2psAdENCv2JZovw5zz
+///OnMO5Oy0hkBy3y25vHalO74p7eGdzTaCAr3zUIFGXxaRgg1TJxy/LdkLcC3u2
+E5WCEsPQoIpmaljlmqmrUCMMmURDVGYKYshAnFHdUKRMqdyN+A6BoUaEZ9uuiIlH
+qc1E9D/6yvEEgAByVZZ1jIlGsUl0ziydqUAFBJqImpAgVUcmQDonkAALaljRCLYw
+lYFhaDqyTGAIXM04jhOiAsQRAipWuGEqioWhilTKAEEG1H1hhHuOsYMLdTl3PLvS
+cBj3IhHXkZoyJZGstU3uT8JvaEJIq9xQ9j/qbNcLCVzYc6Ou6Vb5uGg0HPQh0VjY
+d9VxWjrBK6W2w8RkhaFW2G1RLAiF0ozafgGIkazqOtBwpsR3hm2Pl9q+QiGqBsTx
+y/BagZSpjolFVJVAKhOs67phYI1jA8gyYowAxR8zZDKgVKcQqBxAigFlnFJLVkzJ
+77DacaUgEt80QgIZsUOOEa3xuNTUd3tbYiAuOZA0Kd7fjUDy1Bl/N0ZunPxr+tLM
+BanFPxZlbE+7r5Swl5XNu1ztUkNrbnd5/+2NqKwnv/HDzTldy4+MPG0rSK36mHAl
+vb6l6NS6/s79Jac/37rX+eDLwGDqwL6bHa9z8p8FL19sHX57K2NZ4s+Xz1sisxKa
+X+SxrJYbefV5fQdiOSfLVuxs6nn+flTrXrY4a23dtYT4kdfdTaH58R+f1JRVLfwk
+pcXI79jQ7grWc31uX3ZZUWzT1d5vqwvPJh23vp9LWQOH5+3Z14uy8nNnDzH34AVt
+6FVFSWxmypKnj/cWt1Q0pBx+07WqecvX9Y0nRjrYhu/9vdLgvDOjhaNT2s5Ht24+
+n4ge9oy1D3eMHT2GtEMFuRnv/gCFdjDH
+=ypVe
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/henrikandersson
+
+==================================================================
