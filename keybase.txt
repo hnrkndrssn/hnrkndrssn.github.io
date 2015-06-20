@@ -1,11 +1,10 @@
-
 ==================================================================
 https://keybase.io/henrikandersson
 --------------------------------------------------------------------
 
 I hereby claim:
 
-  * I am an admin of http://blog.henrikandersson.org
+  * I am an admin of https://alfhenrik.github.io
   * I am henrikandersson (https://keybase.io/henrikandersson) on keybase.
   * I have a public key with fingerprint D41A B58C 846E 8C96 187D  3C78 3B2D 53D3 A3ED B9A5
 
@@ -21,17 +20,22 @@ To do so, I am signing this object:
             "uid": "e77603e330645eac55f41636bd073a19",
             "username": "henrikandersson"
         },
+        "revoke": {
+            "sig_ids": [
+                "e11aeaa34d9f302b1469e8789fbd54c0a411d3e331262af42b9469effd8c7ae60f"
+            ]
+        },
         "service": {
-            "hostname": "blog.henrikandersson.org",
-            "protocol": "http:"
+            "hostname": "alfhenrik.github.io",
+            "protocol": "https:"
         },
         "type": "web_service_binding",
         "version": 1
     },
-    "ctime": 1432699084,
+    "ctime": 1434842439,
     "expire_in": 157680000,
-    "prev": "2b947f76671b274999aa48e4a0223dd705d53d1d20bb9b106e01b40bdebbf25c",
-    "seqno": 3,
+    "prev": "e37f9b7825c599fc5d39466a065c2b7af347c1371f085b3b411b7d4d9d638b10",
+    "seqno": 6,
     "tag": "signature"
 }
 
@@ -41,23 +45,24 @@ which yields the signature:
 Version: Keybase OpenPGP v2.0.8
 Comment: https://keybase.io/crypto
 
-yMIlAnicbZJrSBVBFMevj6zErCiiPkSxJWmozOzM7uxeogcl2eNDko+MUnd2Zq+r
-tnvde9WuDyqiKEKxwqCiwIL6kCVhmFb0kAqyEsIwI/uUEL2psAdENCv2JZovw5zz
-///OnMO5Oy0hkBy3y25vHalO74p7eGdzTaCAr3zUIFGXxaRgg1TJxy/LdkLcC3u2
-E5WCEsPQoIpmaljlmqmrUCMMmURDVGYKYshAnFHdUKRMqdyN+A6BoUaEZ9uuiIlH
-qc1E9D/6yvEEgAByVZZ1jIlGsUl0ziydqUAFBJqImpAgVUcmQDonkAALaljRCLYw
-lYFhaDqyTGAIXM04jhOiAsQRAipWuGEqioWhilTKAEEG1H1hhHuOsYMLdTl3PLvS
-cBj3IhHXkZoyJZGstU3uT8JvaEJIq9xQ9j/qbNcLCVzYc6Ou6Vb5uGg0HPQh0VjY
-d9VxWjrBK6W2w8RkhaFW2G1RLAiF0ozafgGIkazqOtBwpsR3hm2Pl9q+QiGqBsTx
-y/BagZSpjolFVJVAKhOs67phYI1jA8gyYowAxR8zZDKgVKcQqBxAigFlnFJLVkzJ
-77DacaUgEt80QgIZsUOOEa3xuNTUd3tbYiAuOZA0Kd7fjUDy1Bl/N0ZunPxr+tLM
-BanFPxZlbE+7r5Swl5XNu1ztUkNrbnd5/+2NqKwnv/HDzTldy4+MPG0rSK36mHAl
-vb6l6NS6/s79Jac/37rX+eDLwGDqwL6bHa9z8p8FL19sHX57K2NZ4s+Xz1sisxKa
-X+SxrJYbefV5fQdiOSfLVuxs6nn+flTrXrY4a23dtYT4kdfdTaH58R+f1JRVLfwk
-pcXI79jQ7grWc31uX3ZZUWzT1d5vqwvPJh23vp9LWQOH5+3Z14uy8nNnDzH34AVt
-6FVFSWxmypKnj/cWt1Q0pBx+07WqecvX9Y0nRjrYhu/9vdLgvDOjhaNT2s5Ht24+
-n4ge9oy1D3eMHT2GtEMFuRnv/gCFdjDH
-=ypVe
+yMJtAnicbVJtiFVFGL67qemSZIRBBLENaLF32WbOzJmPqyBUJrYmgvSBq9zm897D
+dc+5e+7dm4uIkZVIibVJFoIQsWyuJKJsftSmtkJrq/ajUql+iT9a+24x1wi2Oav9
+a/4M887zPu/zPDNn5t+Ra2naGr3/5g89jxxpGj99oDf3zKvXV2wGKjF9oLAZVOzM
+5qK4ZNNqGsV1UACGIKlCrjmhlmtBEWcGa8axCkyIDZbYGiVkCNpBOallHZ5GyZrt
+iBJf84diZHz1f/CVmQuIILI0CAQhjCuimbDGCUMhhQxprDRimAqsIRaWIQYd4iTk
+jDiiAiglF9hpKD1d7wydZYxCbDGGlIRW6jB0BFFMlYEMSyQyYM2msey2Hl22cRpV
+ZGxsWqslMdjSDlLbSCo2C6IWlbz2Gih0AYuQtFJiYoTDMFCIUGE548IpExI/nyBk
+sqkooIF0JFAiQzhnuGbSUujABs/tBzciPUOehXVbhNzobunoKEX1cq+6lVw1TeqJ
+TjZmKuv1aq2Qiav3VbOOF60q3uYqqig2/sV8R8ObiLyJAvJIXY8yckQw4SQgWLQD
+u6kapbYYZYiQUQ79yubYRpYbZk4oxoNQh0I4HRrsLVAJaagDxaTDhGmEGXKQhwor
+b1gx4/MwFHOFIMjc9cQJKFAvU5Y8pc8vlvXe1IItn59aPyvX1JKbM7s5+3O5lnkL
+/vuJXb/cOd1ZXjP2wawH+s+OLlq0dOjSwL6RZTv+6vm5OOeJg+G530fn3jx545Vr
+b8gTN7v/aL+cb1vXf/3At/fcdeSTDeXH8xc+/LiSf/7q5BffT/2abjPjhfStpXvC
+C7u/utIJ7W9ND3at6Xv0/LJOcWJieGX09+HtOw5NTr39wqXV5w4//NTlGxMv3Tt4
+30+jA+f3Pzc9zubOPvXQp//wedeG2gZWvDuxtnXd3btX7W3b+/Xyg9/0l/Ydzzcv
+/DNufuziy0uebB3KV3b9OH/xoTNg1ciei2Pbh4NjZ5/uXp4bWdDR+G7Tazvjq++9
+fr86urJz9fGFrV8uPvZOz7NjU8NLhnY2x59d2bXWbdWD205OfjRwemp68F/nzlFa
+=P7L7
 -----END PGP MESSAGE-----
 
 And finally, I am proving ownership of this host by posting or
