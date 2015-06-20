@@ -3,16 +3,16 @@
 #
 author: Henrik Andersson
 description: A former chef turned software developer specialising in .NET Framework stack, a father and husband with a beautiful wife and three wonderful children, a viking and originally from Sweden...no, not Switzerland.
-url: http://henrikandersson.org
+url: http://alfhenrik.github.io
 title: henrik andersson
 subtitle: 
 gravatar_url: https://s.gravatar.com/avatar/de0ee1937ada29a8c7be1db1505c690b
-subscribe_rss: http://feeds.henrikandersson.org/ahandersson
+subscribe_rss: http://alfhenrik.github.io/atom.xml
 display_resume: false
 
 # Github repositories
 github_user: alfhenrik
-github_repo_url: https://github.com/alfhenrik/henrikandersson.org/
+github_repo_url: https://github.com/alfhenrik/alfhenrik.github.io/
 
 # Twitter
 twitter_user: ahandersson
