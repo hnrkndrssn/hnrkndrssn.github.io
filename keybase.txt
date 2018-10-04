@@ -4,65 +4,73 @@ https://keybase.io/henrikandersson
 
 I hereby claim:
 
-  * I am an admin of https://alfhenrik.github.io
+  * I am an admin of https://hnrkndrssn.github.io
   * I am henrikandersson (https://keybase.io/henrikandersson) on keybase.
   * I have a public key with fingerprint D41A B58C 846E 8C96 187D  3C78 3B2D 53D3 A3ED B9A5
 
 To do so, I am signing this object:
 
 {
-    "body": {
-        "key": {
-            "fingerprint": "d41ab58c846e8c96187d3c783b2d53d3a3edb9a5",
-            "host": "keybase.io",
-            "key_id": "3b2d53d3a3edb9a5",
-            "kid": "0101e62294478b4c79edf9d606071c3bc173693c039e7170f1845874f4b20aa893fc0a",
-            "uid": "e77603e330645eac55f41636bd073a19",
-            "username": "henrikandersson"
-        },
-        "revoke": {
-            "sig_ids": [
-                "e11aeaa34d9f302b1469e8789fbd54c0a411d3e331262af42b9469effd8c7ae60f"
-            ]
-        },
-        "service": {
-            "hostname": "alfhenrik.github.io",
-            "protocol": "https:"
-        },
-        "type": "web_service_binding",
-        "version": 1
+  "body": {
+    "key": {
+      "eldest_kid": "0101e62294478b4c79edf9d606071c3bc173693c039e7170f1845874f4b20aa893fc0a",
+      "fingerprint": "d41ab58c846e8c96187d3c783b2d53d3a3edb9a5",
+      "host": "keybase.io",
+      "key_id": "3b2d53d3a3edb9a5",
+      "kid": "0101e62294478b4c79edf9d606071c3bc173693c039e7170f1845874f4b20aa893fc0a",
+      "uid": "e77603e330645eac55f41636bd073a19",
+      "username": "henrikandersson"
     },
-    "ctime": 1434842439,
-    "expire_in": 157680000,
-    "prev": "e37f9b7825c599fc5d39466a065c2b7af347c1371f085b3b411b7d4d9d638b10",
-    "seqno": 6,
-    "tag": "signature"
+    "merkle_root": {
+      "ctime": 1538625960,
+      "hash_meta": "ecc7c5a542f373c303f7bb0972dcde5216640470a6c0ee63fa2c5b258314921a",
+      "seqno": 3741286
+    },
+    "revoke": {
+      "sig_ids": [
+        "6a1055567b4e24d0088d1d03b7a1510290d13e30b5676fb4e7a6fdb497b3f33e0f"
+      ]
+    },
+    "service": {
+      "hostname": "hnrkndrssn.github.io",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1538625981,
+  "expire_in": 157680000,
+  "prev": "e3583d0cfe3e9035bb2ba531aaacc22e8f3eb0ab79b1c6a86eeb9dca23c830f8",
+  "seqno": 33,
+  "tag": "signature"
 }
 
 which yields the signature:
 
 -----BEGIN PGP MESSAGE-----
-Version: Keybase OpenPGP v2.0.8
+Version: Keybase OpenPGP v2.0.80
 Comment: https://keybase.io/crypto
 
-yMJtAnicbVJtiFVFGL67qemSZIRBBLENaLF32WbOzJmPqyBUJrYmgvSBq9zm897D
-dc+5e+7dm4uIkZVIibVJFoIQsWyuJKJsftSmtkJrq/ajUql+iT9a+24x1wi2Oav9
-a/4M887zPu/zPDNn5t+Ra2naGr3/5g89jxxpGj99oDf3zKvXV2wGKjF9oLAZVOzM
-5qK4ZNNqGsV1UACGIKlCrjmhlmtBEWcGa8axCkyIDZbYGiVkCNpBOallHZ5GyZrt
-iBJf84diZHz1f/CVmQuIILI0CAQhjCuimbDGCUMhhQxprDRimAqsIRaWIQYd4iTk
-jDiiAiglF9hpKD1d7wydZYxCbDGGlIRW6jB0BFFMlYEMSyQyYM2msey2Hl22cRpV
-ZGxsWqslMdjSDlLbSCo2C6IWlbz2Gih0AYuQtFJiYoTDMFCIUGE548IpExI/nyBk
-sqkooIF0JFAiQzhnuGbSUujABs/tBzciPUOehXVbhNzobunoKEX1cq+6lVw1TeqJ
-TjZmKuv1aq2Qiav3VbOOF60q3uYqqig2/sV8R8ObiLyJAvJIXY8yckQw4SQgWLQD
-u6kapbYYZYiQUQ79yubYRpYbZk4oxoNQh0I4HRrsLVAJaagDxaTDhGmEGXKQhwor
-b1gx4/MwFHOFIMjc9cQJKFAvU5Y8pc8vlvXe1IItn59aPyvX1JKbM7s5+3O5lnkL
-/vuJXb/cOd1ZXjP2wawH+s+OLlq0dOjSwL6RZTv+6vm5OOeJg+G530fn3jx545Vr
-b8gTN7v/aL+cb1vXf/3At/fcdeSTDeXH8xc+/LiSf/7q5BffT/2abjPjhfStpXvC
-C7u/utIJ7W9ND3at6Xv0/LJOcWJieGX09+HtOw5NTr39wqXV5w4//NTlGxMv3Tt4
-30+jA+f3Pzc9zubOPvXQp//wedeG2gZWvDuxtnXd3btX7W3b+/Xyg9/0l/Ydzzcv
-/DNufuziy0uebB3KV3b9OH/xoTNg1ciei2Pbh4NjZ5/uXp4bWdDR+G7Tazvjq++9
-fr86urJz9fGFrV8uPvZOz7NjU8NLhnY2x59d2bXWbdWD205OfjRwemp68F/nzlFa
-=P7L7
+yMLFAnicrZNraB1FGIZPjK00EA1Fq0RRXMULJGFmZ+eypxjw0h+20KCnojbKcS7f
+JstJdk93N8eUEpVaLRVsa0MK2l8VYigtSb2UajGYBi2GVqNCUwQxCSkYURRFMLYW
+nY0WRPzp/BlmeL/3e+eZmQ8b6wsNdc+GB/d+teWut+tOT77QV+g89sr4NkfFZqtT
+3OZUYHmCHgNpVq6Exik6CCMMzHV9z+NCeZr7YALfMMQQx5oojTlhPtGI+MAxRwEW
+HhXcCzzlIimFTwKNpNPiBGHUBUk1CaPM2hoPS0WFFh4DoX2GBTdEc0GUaygxRBIw
+ypfUFnbHaV5hwymZQlsY2z27KC/H+w/9/5y7b9kOOGeIACGIeRSkpjTwMCNMGcSJ
+xH4uTCGJZC9YdTdESViRkYEkTePIGWhxeiGp9EA5ieMsZ6yzMFdiSgRzqc+QPadM
+u8u9kMm8ndZcU0k9NyCcaIJIwJVCPneNNkBdzJiHPI4k0wiAkUC6miqXCoI938V5
+7hS2RLFTJNzDrmA2QQK1uAJ58zTssvRSp9jpMIkRpZRx5YHrGYSEMNggorjEFCPX
+RwbbYyNlJSywIi5ZYJTnc0UCQgAFzpMDebOkFupl8/y6LmOIkkpkLIKorSvMuvvU
+X5dXTeIs1nFPrsiyalrM+WRbq3nJ06DKf5uVVRgZ+2hsRc1yDC3HIrbKf6ETuMWB
+/mqYQDnMFZQzgezI+0AtZ0ksFoN0AAR8RKhSrpKUYCml1q4LIiCgkFTcV1gzKRiA
+8o2WLtGCoED8gyWxOWWX9bQEI5n1JeAMTE48cWWhrqGwcsUV+W8qNKxquvzHPl57
+1cWV5+TE0t3OdPvDS7ubp5ou3PJM8smp+Hjv7U/NlF5f33/P+cdeXDuzDy7dNITq
+z05ueGn14sH57xeXWld9t3/hULzmt9Zbd5x694fmhaH3W7fPrHjotjVTN+9Z90jH
+j0X317Ov9s9dgMPn3xiZ/mBq9fzRkc3te+Qdv8+92dUz2rb3wYmFtiP1P73WvfPo
+O9ub33p+gB3ftHn00/Fjnz0wd11pfnBHQVY+eu5ROtww+svL15beG/nm+s87hsfM
+4MW0+u1GvTi2bxff8Hj7nQeGT3xRazy9+777/2CFsUvrhu49WWrYOXhmfHxXiA90
+bLpx/ezs9DUnzm08fPWXTTeU9n+9WJg70/kzPxk1zzYeavkTk1qOTw==
+=IeX3
 -----END PGP MESSAGE-----
 
 And finally, I am proving ownership of this host by posting or
